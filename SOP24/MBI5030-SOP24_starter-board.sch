@@ -1,0 +1,732 @@
+EESchema Schematic File Version 2  date Sun 20 Jan 2013 08:10:18 PM CET
+LIBS:my_parts
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:MBI5030-SOP24_starter-board-cache
+EELAYER 27 0
+EELAYER END
+$Descr User 8268 5906
+encoding utf-8
+Sheet 1 1
+Title "MBI5030-SOP24_starter-board"
+Date "20 jan 2013"
+Rev "1.00"
+Comp "2013 - blog.spitzenpfeil.org"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Connection ~ 3450 1800
+Wire Wire Line
+	3700 1800 3100 1800
+Connection ~ 3650 1350
+Wire Wire Line
+	3650 1350 3650 1200
+Wire Wire Line
+	3450 1350 3450 1400
+Wire Wire Line
+	3100 1400 3100 1350
+Wire Wire Line
+	3100 1800 3100 1850
+Wire Wire Line
+	3450 1800 3450 1850
+Wire Wire Line
+	3650 1800 3650 2000
+Connection ~ 3650 1800
+Wire Wire Line
+	3100 1350 3700 1350
+Connection ~ 3450 1350
+$Comp
+L PWR_FLAG #FLG01
+U 1 1 5042785B
+P 3650 2000
+F 0 "#FLG01" H 3650 2095 30  0001 C CNN
+F 1 "PWR_FLAG" H 3650 2180 30  0000 C CNN
+	1    3650 2000
+	-1   0    0    1   
+$EndComp
+$Comp
+L PWR_FLAG #FLG02
+U 1 1 5042784D
+P 3650 1200
+F 0 "#FLG02" H 3650 1295 30  0001 C CNN
+F 1 "PWR_FLAG" H 3650 1380 30  0000 C CNN
+	1    3650 1200
+	1    0    0    -1  
+$EndComp
+Text Label 2000 1100 2    60   ~ 0
+VDD
+Text Label 2000 1200 2    60   ~ 0
+R-EXT
+Text Label 2000 1300 2    60   ~ 0
+SDO
+Text Label 2000 1400 2    60   ~ 0
+GCLK
+Text Label 2000 1500 2    60   ~ 0
+OUT15
+Text Label 2000 1600 2    60   ~ 0
+OUT14
+Text Label 2000 1700 2    60   ~ 0
+OUT13
+Text Label 2000 1800 2    60   ~ 0
+OUT12
+Text Label 2000 1900 2    60   ~ 0
+OUT11
+Text Label 2000 2000 2    60   ~ 0
+OUT10
+Text Label 2000 2100 2    60   ~ 0
+OUT9
+Text Label 2000 2200 2    60   ~ 0
+OUT8
+Text Label 1400 2200 0    60   ~ 0
+OUT7
+Text Label 1400 2100 0    60   ~ 0
+OUT6
+Text Label 1400 2000 0    60   ~ 0
+OUT5
+Text Label 1400 1900 0    60   ~ 0
+OUT4
+Text Label 1400 1800 0    60   ~ 0
+OUT3
+Text Label 1400 1700 0    60   ~ 0
+OUT2
+Text Label 1400 1600 0    60   ~ 0
+OUT1
+Text Label 1400 1500 0    60   ~ 0
+OUT0
+Text Label 1400 1400 0    60   ~ 0
+LE
+Text Label 1400 1300 0    60   ~ 0
+DCLK
+Text Label 1400 1200 0    60   ~ 0
+SDI
+Text Label 1400 1100 0    60   ~ 0
+GND
+$Comp
+L VCC #PWR03
+U 1 1 504269B0
+P 3700 1350
+F 0 "#PWR03" H 3700 1450 30  0001 C CNN
+F 1 "VCC" H 3700 1450 30  0000 C CNN
+	1    3700 1350
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR04
+U 1 1 5042686E
+P 3700 1800
+F 0 "#PWR04" H 3700 1800 30  0001 C CNN
+F 1 "GND" H 3700 1730 30  0001 C CNN
+	1    3700 1800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_1 P6
+U 1 1 5042646A
+P 3450 2000
+F 0 "P6" H 3530 2000 40  0000 L CNN
+F 1 "CONN_1" H 3450 2055 30  0001 C CNN
+	1    3450 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_1 P5
+U 1 1 50426467
+P 3100 2000
+F 0 "P5" H 3180 2000 40  0000 L CNN
+F 1 "CONN_1" H 3100 2055 30  0001 C CNN
+	1    3100 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_1 P2
+U 1 1 50426464
+P 3450 1200
+F 0 "P2" H 3530 1200 40  0000 L CNN
+F 1 "CONN_1" H 3450 1255 30  0001 C CNN
+	1    3450 1200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_1 P1
+U 1 1 5042645F
+P 3100 1200
+F 0 "P1" H 3180 1200 40  0000 L CNN
+F 1 "CONN_1" H 3100 1255 30  0001 C CNN
+	1    3100 1200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C2
+U 1 1 50426447
+P 3450 1600
+F 0 "C2" H 3500 1700 50  0000 L CNN
+F 1 "C" H 3500 1500 50  0000 L CNN
+	1    3450 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C1
+U 1 1 50426442
+P 3100 1600
+F 0 "C1" H 3150 1700 50  0000 L CNN
+F 1 "C" H 3150 1500 50  0000 L CNN
+	1    3100 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_12 P3
+U 1 1 504244A9
+P 1050 1650
+F 0 "P3" V 1000 1650 60  0000 C CNN
+F 1 "CONN_12" V 1100 1650 60  0000 C CNN
+	1    1050 1650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_12 P4
+U 1 1 504244A6
+P 2350 1650
+F 0 "P4" V 2300 1650 60  0000 C CNN
+F 1 "CONN_12" V 2400 1650 60  0000 C CNN
+	1    2350 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L POT RV1
+U 1 1 50FC2D69
+P 3400 4250
+F 0 "RV1" H 3400 4150 50  0000 C CNN
+F 1 "2k" H 3400 4250 50  0000 C CNN
+	1    3400 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MADW__MBI5030GF/GTS IC1
+U 1 1 50FC3250
+P 2000 3600
+F 0 "IC1" H 2000 4050 60  0000 C CNN
+F 1 "MADW__MBI5030GF/GTS" H 2000 4200 60  0000 C CNN
+	1    2000 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 50FC3282
+P 4700 1350
+F 0 "R1" V 4780 1350 50  0000 C CNN
+F 1 "1k" V 4700 1350 50  0000 C CNN
+	1    4700 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 50FC3291
+P 5000 1350
+F 0 "R2" V 5080 1350 50  0000 C CNN
+F 1 "1k" V 5000 1350 50  0000 C CNN
+	1    5000 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R4
+U 1 1 50FC32A0
+P 5600 1350
+F 0 "R4" V 5680 1350 50  0000 C CNN
+F 1 "1k" V 5600 1350 50  0000 C CNN
+	1    5600 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R3
+U 1 1 50FC32AF
+P 5300 1350
+F 0 "R3" V 5380 1350 50  0000 C CNN
+F 1 "1k" V 5300 1350 50  0000 C CNN
+	1    5300 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R5
+U 1 1 50FC32BE
+P 5900 1350
+F 0 "R5" V 5980 1350 50  0000 C CNN
+F 1 "1k" V 5900 1350 50  0000 C CNN
+	1    5900 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R6
+U 1 1 50FC32CD
+P 6200 1350
+F 0 "R6" V 6280 1350 50  0000 C CNN
+F 1 "1k" V 6200 1350 50  0000 C CNN
+	1    6200 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R7
+U 1 1 50FC32DC
+P 6500 1350
+F 0 "R7" V 6580 1350 50  0000 C CNN
+F 1 "1k" V 6500 1350 50  0000 C CNN
+	1    6500 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R8
+U 1 1 50FC32EB
+P 6800 1350
+F 0 "R8" V 6880 1350 50  0000 C CNN
+F 1 "1k" V 6800 1350 50  0000 C CNN
+	1    6800 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D1
+U 1 1 50FC3340
+P 4700 1850
+F 0 "D1" H 4700 1950 50  0000 C CNN
+F 1 "LED" H 4700 1750 50  0000 C CNN
+	1    4700 1850
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D2
+U 1 1 50FC334F
+P 5000 1850
+F 0 "D2" H 5000 1950 50  0000 C CNN
+F 1 "LED" H 5000 1750 50  0000 C CNN
+	1    5000 1850
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D3
+U 1 1 50FC33C2
+P 5300 1850
+F 0 "D3" H 5300 1950 50  0000 C CNN
+F 1 "LED" H 5300 1750 50  0000 C CNN
+	1    5300 1850
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D4
+U 1 1 50FC33D9
+P 5600 1850
+F 0 "D4" H 5600 1950 50  0000 C CNN
+F 1 "LED" H 5600 1750 50  0000 C CNN
+	1    5600 1850
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D7
+U 1 1 50FC33DF
+P 6500 1850
+F 0 "D7" H 6500 1950 50  0000 C CNN
+F 1 "LED" H 6500 1750 50  0000 C CNN
+	1    6500 1850
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D8
+U 1 1 50FC33E5
+P 6800 1850
+F 0 "D8" H 6800 1950 50  0000 C CNN
+F 1 "LED" H 6800 1750 50  0000 C CNN
+	1    6800 1850
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D5
+U 1 1 50FC33EB
+P 5900 1850
+F 0 "D5" H 5900 1950 50  0000 C CNN
+F 1 "LED" H 5900 1750 50  0000 C CNN
+	1    5900 1850
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D6
+U 1 1 50FC33F1
+P 6200 1850
+F 0 "D6" H 6200 1950 50  0000 C CNN
+F 1 "LED" H 6200 1750 50  0000 C CNN
+	1    6200 1850
+	0    1    1    0   
+$EndComp
+Text Label 4700 2050 3    60   ~ 0
+OUT0
+Text Label 5000 2050 3    60   ~ 0
+OUT1
+Text Label 5300 2050 3    60   ~ 0
+OUT2
+Text Label 5600 2050 3    60   ~ 0
+OUT3
+Text Label 5900 2050 3    60   ~ 0
+OUT4
+Text Label 6200 2050 3    60   ~ 0
+OUT5
+Text Label 6500 2050 3    60   ~ 0
+OUT6
+Text Label 6800 2050 3    60   ~ 0
+OUT7
+Wire Wire Line
+	4700 1600 4700 1650
+Wire Wire Line
+	5000 1650 5000 1600
+Wire Wire Line
+	5300 1600 5300 1650
+Wire Wire Line
+	5600 1600 5600 1650
+Wire Wire Line
+	5900 1600 5900 1650
+Wire Wire Line
+	6200 1600 6200 1650
+Wire Wire Line
+	6500 1600 6500 1650
+Wire Wire Line
+	6800 1600 6800 1650
+Text Label 1400 3350 2    60   ~ 0
+GND
+Text Label 1400 3450 2    60   ~ 0
+SDI
+Text Label 1400 3550 2    60   ~ 0
+DCLK
+Text Label 1400 3650 2    60   ~ 0
+LE
+Text Label 1400 3750 2    60   ~ 0
+OUT0
+Text Label 1400 3850 2    60   ~ 0
+OUT1
+Text Label 1400 3950 2    60   ~ 0
+OUT2
+Text Label 1400 4050 2    60   ~ 0
+OUT3
+Text Label 1400 4150 2    60   ~ 0
+OUT4
+Text Label 1400 4250 2    60   ~ 0
+OUT5
+Text Label 1400 4350 2    60   ~ 0
+OUT6
+Text Label 1400 4450 2    60   ~ 0
+OUT7
+Text Label 2650 4450 0    60   ~ 0
+OUT8
+Text Label 2650 4350 0    60   ~ 0
+OUT9
+Text Label 2650 4250 0    60   ~ 0
+OUT10
+Text Label 2650 4150 0    60   ~ 0
+OUT11
+Text Label 2650 4050 0    60   ~ 0
+OUT12
+Text Label 2650 3950 0    60   ~ 0
+OUT13
+Text Label 2650 3850 0    60   ~ 0
+OUT14
+Text Label 2650 3750 0    60   ~ 0
+OUT15
+Text Label 2650 3650 0    60   ~ 0
+GCLK
+Text Label 2650 3550 0    60   ~ 0
+SDO
+Text Label 2650 3450 0    60   ~ 0
+R-EXT
+Text Label 2650 3350 0    60   ~ 0
+VDD
+$Comp
+L GND #PWR05
+U 1 1 50FC34CE
+P 3400 4600
+F 0 "#PWR05" H 3400 4600 30  0001 C CNN
+F 1 "GND" H 3400 4530 30  0001 C CNN
+	1    3400 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 4500 3400 4600
+Wire Wire Line
+	1400 3350 1000 3350
+$Comp
+L GND #PWR06
+U 1 1 50FC351F
+P 1000 3400
+F 0 "#PWR06" H 1000 3400 30  0001 C CNN
+F 1 "GND" H 1000 3330 30  0001 C CNN
+	1    1000 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 3350 1000 3400
+Wire Wire Line
+	2650 3350 3100 3350
+$Comp
+L VCC #PWR07
+U 1 1 50FC358F
+P 3100 3350
+F 0 "#PWR07" H 3100 3450 30  0001 C CNN
+F 1 "VCC" H 3100 3450 30  0000 C CNN
+	1    3100 3350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2650 3450 3400 3450
+Wire Wire Line
+	3250 4250 3150 4250
+Wire Wire Line
+	3150 4500 3400 4500
+Wire Wire Line
+	3150 4250 3150 4500
+$Comp
+L R R17
+U 1 1 50FC36AE
+P 3400 3700
+F 0 "R17" V 3480 3700 50  0000 C CNN
+F 1 "300R" V 3400 3700 50  0000 C CNN
+	1    3400 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 3950 3400 4000
+Text Notes 1350 4750 0    60   ~ 0
+Iout = ( 0.61 * G ) / R-EXT * 23.3\n\nG: 1...2 (digital gain)
+$Comp
+L R R9
+U 1 1 50FC387C
+P 4700 2800
+F 0 "R9" V 4780 2800 50  0000 C CNN
+F 1 "1k" V 4700 2800 50  0000 C CNN
+	1    4700 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R10
+U 1 1 50FC3882
+P 5000 2800
+F 0 "R10" V 5080 2800 50  0000 C CNN
+F 1 "1k" V 5000 2800 50  0000 C CNN
+	1    5000 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R12
+U 1 1 50FC3888
+P 5600 2800
+F 0 "R12" V 5680 2800 50  0000 C CNN
+F 1 "1k" V 5600 2800 50  0000 C CNN
+	1    5600 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R11
+U 1 1 50FC388E
+P 5300 2800
+F 0 "R11" V 5380 2800 50  0000 C CNN
+F 1 "1k" V 5300 2800 50  0000 C CNN
+	1    5300 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R13
+U 1 1 50FC3894
+P 5900 2800
+F 0 "R13" V 5980 2800 50  0000 C CNN
+F 1 "1k" V 5900 2800 50  0000 C CNN
+	1    5900 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R14
+U 1 1 50FC389A
+P 6200 2800
+F 0 "R14" V 6280 2800 50  0000 C CNN
+F 1 "1k" V 6200 2800 50  0000 C CNN
+	1    6200 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R15
+U 1 1 50FC38A0
+P 6500 2800
+F 0 "R15" V 6580 2800 50  0000 C CNN
+F 1 "1k" V 6500 2800 50  0000 C CNN
+	1    6500 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R16
+U 1 1 50FC38A6
+P 6800 2800
+F 0 "R16" V 6880 2800 50  0000 C CNN
+F 1 "1k" V 6800 2800 50  0000 C CNN
+	1    6800 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D9
+U 1 1 50FC38AC
+P 4700 3300
+F 0 "D9" H 4700 3400 50  0000 C CNN
+F 1 "LED" H 4700 3200 50  0000 C CNN
+	1    4700 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D10
+U 1 1 50FC38B2
+P 5000 3300
+F 0 "D10" H 5000 3400 50  0000 C CNN
+F 1 "LED" H 5000 3200 50  0000 C CNN
+	1    5000 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D11
+U 1 1 50FC38B8
+P 5300 3300
+F 0 "D11" H 5300 3400 50  0000 C CNN
+F 1 "LED" H 5300 3200 50  0000 C CNN
+	1    5300 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D12
+U 1 1 50FC38BE
+P 5600 3300
+F 0 "D12" H 5600 3400 50  0000 C CNN
+F 1 "LED" H 5600 3200 50  0000 C CNN
+	1    5600 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D15
+U 1 1 50FC38C4
+P 6500 3300
+F 0 "D15" H 6500 3400 50  0000 C CNN
+F 1 "LED" H 6500 3200 50  0000 C CNN
+	1    6500 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D16
+U 1 1 50FC38CA
+P 6800 3300
+F 0 "D16" H 6800 3400 50  0000 C CNN
+F 1 "LED" H 6800 3200 50  0000 C CNN
+	1    6800 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D13
+U 1 1 50FC38D0
+P 5900 3300
+F 0 "D13" H 5900 3400 50  0000 C CNN
+F 1 "LED" H 5900 3200 50  0000 C CNN
+	1    5900 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D14
+U 1 1 50FC38D6
+P 6200 3300
+F 0 "D14" H 6200 3400 50  0000 C CNN
+F 1 "LED" H 6200 3200 50  0000 C CNN
+	1    6200 3300
+	0    1    1    0   
+$EndComp
+Text Label 4700 3500 3    60   ~ 0
+OUT0
+Text Label 5000 3500 3    60   ~ 0
+OUT1
+Text Label 5300 3500 3    60   ~ 0
+OUT2
+Text Label 5600 3500 3    60   ~ 0
+OUT3
+Text Label 5900 3500 3    60   ~ 0
+OUT4
+Text Label 6200 3500 3    60   ~ 0
+OUT5
+Text Label 6500 3500 3    60   ~ 0
+OUT6
+Text Label 6800 3500 3    60   ~ 0
+OUT7
+Wire Wire Line
+	4700 3050 4700 3100
+Wire Wire Line
+	5000 3100 5000 3050
+Wire Wire Line
+	5300 3050 5300 3100
+Wire Wire Line
+	5600 3050 5600 3100
+Wire Wire Line
+	5900 3050 5900 3100
+Wire Wire Line
+	6200 3050 6200 3100
+Wire Wire Line
+	6500 3050 6500 3100
+Wire Wire Line
+	6800 3050 6800 3100
+Connection ~ 5000 1100
+Connection ~ 5300 1100
+Connection ~ 5900 1100
+Connection ~ 5600 1100
+Wire Wire Line
+	4700 1100 6800 1100
+Connection ~ 6200 1100
+Connection ~ 6500 1100
+Wire Wire Line
+	4700 2550 6800 2550
+Connection ~ 5000 2550
+Connection ~ 5300 2550
+Connection ~ 5600 2550
+Connection ~ 5900 2550
+Connection ~ 6200 2550
+Connection ~ 6500 2550
+$Comp
+L VCC #PWR08
+U 1 1 50FC3A98
+P 4700 1100
+F 0 "#PWR08" H 4700 1200 30  0001 C CNN
+F 1 "VCC" H 4700 1200 30  0000 C CNN
+	1    4700 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR09
+U 1 1 50FC3AA7
+P 4700 2550
+F 0 "#PWR09" H 4700 2650 30  0001 C CNN
+F 1 "VCC" H 4700 2650 30  0000 C CNN
+	1    4700 2550
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

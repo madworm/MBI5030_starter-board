@@ -1,0 +1,6 @@
+*.000
+*.brd-bak
+*.bak
+$save*
+*~
+_autosave*
