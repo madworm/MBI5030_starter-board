@@ -1,16 +1,16 @@
-Cmp-Mod V01 Created by CvPcb (2013-01-19 BZR 3914)-testing date = Sun 20 Jan 2013 08:01:33 PM CET
+Cmp-Mod V01 Created by CvPcb (2013-01-19 BZR 3914)-testing date = Mon 21 Jan 2013 12:34:05 AM CET
 
 BeginCmp
 TimeStamp = /50426442;
 Reference = C1;
-ValeurCmp = C;
+ValeurCmp = 100nF;
 IdModule  = -C0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /50426447;
 Reference = C2;
-ValeurCmp = C;
+ValeurCmp = 4.7µF;
 IdModule  = -C0805;
 EndCmp
 
@@ -129,22 +129,15 @@ EndCmp
 BeginCmp
 TimeStamp = /50FC3250;
 Reference = IC1;
-ValeurCmp = MADW__MBI5030GF/GTS;
+ValeurCmp = MBI5030GF;
 IdModule  = MADW__SOP24-300-1.00;
 EndCmp
 
 BeginCmp
-TimeStamp = /5042645F;
-Reference = P1;
-ValeurCmp = CONN_1;
-IdModule  = PIN_ARRAY_1;
-EndCmp
-
-BeginCmp
-TimeStamp = /50426464;
-Reference = P2;
-ValeurCmp = CONN_1;
-IdModule  = PIN_ARRAY_1;
+TimeStamp = /50FC8017;
+Reference = JP1;
+ValeurCmp = JUMPER;
+IdModule  = SIL-2;
 EndCmp
 
 BeginCmp
@@ -159,20 +152,6 @@ TimeStamp = /504244A6;
 Reference = P4;
 ValeurCmp = CONN_12;
 IdModule  = MADW__SIL-12;
-EndCmp
-
-BeginCmp
-TimeStamp = /50426467;
-Reference = P5;
-ValeurCmp = CONN_1;
-IdModule  = PIN_ARRAY_1;
-EndCmp
-
-BeginCmp
-TimeStamp = /5042646A;
-Reference = P6;
-ValeurCmp = CONN_1;
-IdModule  = PIN_ARRAY_1;
 EndCmp
 
 BeginCmp

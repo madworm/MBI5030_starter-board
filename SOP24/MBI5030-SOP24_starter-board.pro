@@ -1,4 +1,4 @@
-update=Sun 20 Jan 2013 07:58:31 PM CET
+update=Mon 21 Jan 2013 12:07:07 AM CET
 version=1
 last_client=pcbnew
 [general]
@@ -54,17 +54,17 @@ LastNetListRead=MBI5030-SOP24_starter-board.net
 PadDrill=0
 PadSizeH=0.79756
 PadSizeV=0.79756
-PcbTextSizeV=2.032
-PcbTextSizeH=1.524
-PcbTextThickness=0.3048
-ModuleTextSizeV=1.524
-ModuleTextSizeH=1.524
-ModuleTextSizeThickness=0.3048
+PcbTextSizeV=1
+PcbTextSizeH=1
+PcbTextThickness=0.2
+ModuleTextSizeV=1
+ModuleTextSizeH=1
+ModuleTextSizeThickness=0.2
 SolderMaskClearance=0
 SolderMaskMinWidth=0
-DrawSegmentWidth=0.381
-BoardOutlineThickness=0.381
-ModuleOutlineThickness=0.381
+DrawSegmentWidth=0.2
+BoardOutlineThickness=0.2
+ModuleOutlineThickness=0.2
 [pcbnew/libraries]
 LibDir=
 LibName1=/home/robert/Arduino/KiCAD/LIBS/my_parts

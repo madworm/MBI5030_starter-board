@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 20 Jan 2013 08:10:18 PM CET
+EESchema Schematic File Version 2  date Mon 21 Jan 2013 01:01:47 AM CET
 LIBS:my_parts
 LIBS:power
 LIBS:device
@@ -37,7 +37,7 @@ $Descr User 8268 5906
 encoding utf-8
 Sheet 1 1
 Title "MBI5030-SOP24_starter-board"
-Date "20 jan 2013"
+Date "21 jan 2013"
 Rev "1.00"
 Comp "2013 - blog.spitzenpfeil.org"
 Comment1 ""
@@ -55,10 +55,6 @@ Wire Wire Line
 	3450 1350 3450 1400
 Wire Wire Line
 	3100 1400 3100 1350
-Wire Wire Line
-	3100 1800 3100 1850
-Wire Wire Line
-	3450 1800 3450 1850
 Wire Wire Line
 	3650 1800 3650 2000
 Connection ~ 3650 1800
@@ -150,47 +146,11 @@ F 1 "GND" H 3700 1730 30  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L CONN_1 P6
-U 1 1 5042646A
-P 3450 2000
-F 0 "P6" H 3530 2000 40  0000 L CNN
-F 1 "CONN_1" H 3450 2055 30  0001 C CNN
-	1    3450 2000
-	0    1    1    0   
-$EndComp
-$Comp
-L CONN_1 P5
-U 1 1 50426467
-P 3100 2000
-F 0 "P5" H 3180 2000 40  0000 L CNN
-F 1 "CONN_1" H 3100 2055 30  0001 C CNN
-	1    3100 2000
-	0    1    1    0   
-$EndComp
-$Comp
-L CONN_1 P2
-U 1 1 50426464
-P 3450 1200
-F 0 "P2" H 3530 1200 40  0000 L CNN
-F 1 "CONN_1" H 3450 1255 30  0001 C CNN
-	1    3450 1200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L CONN_1 P1
-U 1 1 5042645F
-P 3100 1200
-F 0 "P1" H 3180 1200 40  0000 L CNN
-F 1 "CONN_1" H 3100 1255 30  0001 C CNN
-	1    3100 1200
-	0    -1   -1   0   
-$EndComp
-$Comp
 L C C2
 U 1 1 50426447
 P 3450 1600
 F 0 "C2" H 3500 1700 50  0000 L CNN
-F 1 "C" H 3500 1500 50  0000 L CNN
+F 1 "4.7µF" H 3500 1500 50  0000 L CNN
 	1    3450 1600
 	1    0    0    -1  
 $EndComp
@@ -199,7 +159,7 @@ L C C1
 U 1 1 50426442
 P 3100 1600
 F 0 "C1" H 3150 1700 50  0000 L CNN
-F 1 "C" H 3150 1500 50  0000 L CNN
+F 1 "100nF" H 3150 1500 50  0000 L CNN
 	1    3100 1600
 	1    0    0    -1  
 $EndComp
@@ -235,7 +195,7 @@ L MADW__MBI5030GF/GTS IC1
 U 1 1 50FC3250
 P 2000 3600
 F 0 "IC1" H 2000 4050 60  0000 C CNN
-F 1 "MADW__MBI5030GF/GTS" H 2000 4200 60  0000 C CNN
+F 1 "MBI5030GF" H 2000 4200 60  0000 C CNN
 	1    2000 3600
 	1    0    0    -1  
 $EndComp
@@ -664,21 +624,21 @@ F 1 "LED" H 6200 3200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 4700 3500 3    60   ~ 0
-OUT0
+OUT8
 Text Label 5000 3500 3    60   ~ 0
-OUT1
+OUT9
 Text Label 5300 3500 3    60   ~ 0
-OUT2
+OUT10
 Text Label 5600 3500 3    60   ~ 0
-OUT3
+OUT11
 Text Label 5900 3500 3    60   ~ 0
-OUT4
+OUT12
 Text Label 6200 3500 3    60   ~ 0
-OUT5
+OUT13
 Text Label 6500 3500 3    60   ~ 0
-OUT6
+OUT14
 Text Label 6800 3500 3    60   ~ 0
-OUT7
+OUT15
 Wire Wire Line
 	4700 3050 4700 3100
 Wire Wire Line
@@ -700,11 +660,11 @@ Connection ~ 5300 1100
 Connection ~ 5900 1100
 Connection ~ 5600 1100
 Wire Wire Line
-	4700 1100 6800 1100
+	4700 1100 6950 1100
 Connection ~ 6200 1100
 Connection ~ 6500 1100
 Wire Wire Line
-	4700 2550 6800 2550
+	4700 2550 6950 2550
 Connection ~ 5000 2550
 Connection ~ 5300 2550
 Connection ~ 5600 2550
@@ -714,19 +674,27 @@ Connection ~ 6500 2550
 $Comp
 L VCC #PWR08
 U 1 1 50FC3A98
-P 4700 1100
-F 0 "#PWR08" H 4700 1200 30  0001 C CNN
-F 1 "VCC" H 4700 1200 30  0000 C CNN
-	1    4700 1100
-	1    0    0    -1  
+P 4000 2550
+F 0 "#PWR08" H 4000 2650 30  0001 C CNN
+F 1 "VCC" H 4000 2650 30  0000 C CNN
+	1    4000 2550
+	0    -1   -1   0   
 $EndComp
+Wire Wire Line
+	6950 2550 6950 1100
+Connection ~ 6800 1100
+Connection ~ 6800 2550
 $Comp
-L VCC #PWR09
-U 1 1 50FC3AA7
-P 4700 2550
-F 0 "#PWR09" H 4700 2650 30  0001 C CNN
-F 1 "VCC" H 4700 2650 30  0000 C CNN
-	1    4700 2550
+L JUMPER JP1
+U 1 1 50FC8017
+P 4400 2550
+F 0 "JP1" H 4400 2700 60  0000 C CNN
+F 1 "int. LEDs" H 4400 2470 40  0000 C CNN
+	1    4400 2550
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4100 2550 4000 2550
+Text Notes 3300 2800 0    60   ~ 0
+Disconnect before powering\nexternal LEDs!
 $EndSCHEMATC
