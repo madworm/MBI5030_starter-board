@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 2 date Mon 21 Jan 2013 05:04:55 AM CET
+PCBNEW-BOARD Version 2 date Mon 21 Jan 2013 08:31:32 AM CET
 
 # Created by Pcbnew(2013-01-19 BZR 3914)-testing
 
@@ -10,7 +10,7 @@ EnabledLayers 12F08001
 Links 81
 NoConn 0
 Di 133.231525 102.134999 179.315477 131.975
-Ndraw 20
+Ndraw 21
 Ntrack 316
 Nzone 0
 BoardThickness 1.6002
@@ -4515,6 +4515,12 @@ Ne 9 "/OUT13"
 Po 0 -0.7493
 $EndPAD
 $EndMODULE MADW__CHIPLED_0603
+$TEXTPCB
+Te "! Pull jumper"
+nl "! for external LEDs"
+Po 169.7 122.55 1 1 0.2 2700
+De 20 0 0 Normal L C
+$EndTEXTPCB
 $COTATION
 Ge 0 25 0
 Va 24.13
