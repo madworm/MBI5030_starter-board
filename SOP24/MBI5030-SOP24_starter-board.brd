@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 2 date Mon 21 Jan 2013 04:33:37 AM CET
+PCBNEW-BOARD Version 2 date Mon 21 Jan 2013 05:04:55 AM CET
 
 # Created by Pcbnew(2013-01-19 BZR 3914)-testing
 
@@ -6,11 +6,11 @@ $GENERAL
 encoding utf-8
 Units mm
 LayerCount 2
-EnabledLayers 10F08001
+EnabledLayers 12F08001
 Links 81
 NoConn 0
-Di 138.964999 102.134999 170.915001 126.465001
-Ndraw 15
+Di 133.231525 102.134999 179.315477 131.975
+Ndraw 20
 Ntrack 316
 Nzone 0
 BoardThickness 1.6002
@@ -62,7 +62,7 @@ Pad2MaskClearance 0
 SolderMaskMinWidth 0
 AuxiliaryAxisOrg 0 0
 VisibleElements FFFFFFBF
-PcbPlotParams (pcbplotparams (layerselection 284196865) (usegerberextensions true) (excludeedgelayer true) (linewidth 60) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk true) (outputformat 1) (mirror false) (drillshape 0) (scaleselection 1) (outputdirectory gerber_files/))
+PcbPlotParams (pcbplotparams (layerselection 317751297) (usegerberextensions true) (excludeedgelayer true) (linewidth 60) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk true) (outputformat 1) (mirror false) (drillshape 0) (scaleselection 1) (outputdirectory gerber_files/))
 $EndSETUP
 
 $EQUIPOT
@@ -4515,6 +4515,71 @@ Ne 9 "/OUT13"
 Po 0 -0.7493
 $EndPAD
 $EndMODULE MADW__CHIPLED_0603
+$COTATION
+Ge 0 25 0
+Va 24.13
+Te "0.9500 in"
+Po 175.525 114.3 1 1 0.2 900 1
+Sb 0 174.625 126.365 174.625 102.235 0.2
+Sd 0 170.815 102.235 176.425 102.235 0.2
+Sg 0 170.815 126.365 176.425 126.365 0.2
+S1 0 174.625 102.235 175.21142 103.361503 0.2
+S2 0 174.625 102.235 174.03858 103.361503 0.2
+S3 0 174.625 126.365 175.21142 125.238497 0.2
+S4 0 174.625 126.365 174.03858 125.238497 0.2
+$endCOTATION
+$COTATION
+Ge 0 25 0
+Va 31.75
+Te "1.2500 in"
+Po 154.94 131.074999 1 1 0.2 -0 1
+Sb 0 139.065 130.174999 170.815 130.174999 0.2
+Sd 0 170.815 126.365 170.815 131.974999 0.2
+Sg 0 139.065 126.365 139.065 131.974999 0.2
+S1 0 170.815 130.174999 169.688497 130.761419 0.2
+S2 0 170.815 130.174999 169.688497 129.588579 0.2
+S3 0 139.065 130.174999 140.191503 130.761419 0.2
+S4 0 139.065 130.174999 140.191503 129.588579 0.2
+$endCOTATION
+$COTATION
+Ge 0 25 0
+Va 20.32
+Te "0.8000 in"
+Po 137.022001 114.3 1 1 0.2 2700 1
+Sb 0 137.922001 104.14 137.922001 124.46 0.2
+Sd 0 140.97 124.46 136.122001 124.46 0.2
+Sg 0 140.97 104.14 136.122001 104.14 0.2
+S1 0 137.922001 124.46 137.335581 123.333497 0.2
+S2 0 137.922001 124.46 138.508421 123.333497 0.2
+S3 0 137.922001 104.14 137.335581 105.266503 0.2
+S4 0 137.922001 104.14 138.508421 105.266503 0.2
+$endCOTATION
+$COTATION
+Ge 0 25 0
+Va 24.13
+Te "24.130 mm"
+Po 172.858 114.3 1 1 0.2 900 1
+Sb 0 171.958 126.365 171.958 102.235 0.2
+Sd 0 170.815 102.235 173.758 102.235 0.2
+Sg 0 170.815 126.365 173.758 126.365 0.2
+S1 0 171.958 102.235 172.54442 103.361503 0.2
+S2 0 171.958 102.235 171.37158 103.361503 0.2
+S3 0 171.958 126.365 172.54442 125.238497 0.2
+S4 0 171.958 126.365 171.37158 125.238497 0.2
+$endCOTATION
+$COTATION
+Ge 0 25 0
+Va 31.75
+Te "31.750 mm"
+Po 154.94 128.407999 1 1 0.2 -0 1
+Sb 0 139.065 127.507999 170.815 127.507999 0.2
+Sd 0 170.815 126.365 170.815 129.307999 0.2
+Sg 0 139.065 126.365 139.065 129.307999 0.2
+S1 0 170.815 127.507999 169.688497 128.094419 0.2
+S2 0 170.815 127.507999 169.688497 126.921579 0.2
+S3 0 139.065 127.507999 140.191503 128.094419 0.2
+S4 0 139.065 127.507999 140.191503 126.921579 0.2
+$endCOTATION
 $DRAWSEGMENT
 Po 0 170.815 126.365 170.815 102.235 0.2
 De 28 0 900 0 0
