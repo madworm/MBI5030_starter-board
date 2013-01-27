@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by PcbNew date = Mon 21 Jan 2013 11:54:58 AM CET
+Cmp-Mod V01 Created by CvPcb (2013-01-24 BZR 3921)-testing date = Sun 27 Jan 2013 11:32:15 AM CET
 
 BeginCmp
 TimeStamp = /50426442;
@@ -18,112 +18,112 @@ BeginCmp
 TimeStamp = /50FC3340;
 Reference = D1;
 ValeurCmp = LED;
-IdModule  = MADW__CHIPLED_0603;
+IdModule  = MADW__CHIPLED-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /50FC334F;
 Reference = D2;
 ValeurCmp = LED;
-IdModule  = MADW__CHIPLED_0603;
+IdModule  = MADW__CHIPLED-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /50FC33C2;
 Reference = D3;
 ValeurCmp = LED;
-IdModule  = MADW__CHIPLED_0603;
+IdModule  = MADW__CHIPLED-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /50FC33D9;
 Reference = D4;
 ValeurCmp = LED;
-IdModule  = MADW__CHIPLED_0603;
+IdModule  = MADW__CHIPLED-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /50FC33EB;
 Reference = D5;
 ValeurCmp = LED;
-IdModule  = MADW__CHIPLED_0603;
+IdModule  = MADW__CHIPLED-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /50FC33F1;
 Reference = D6;
 ValeurCmp = LED;
-IdModule  = MADW__CHIPLED_0603;
+IdModule  = MADW__CHIPLED-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /50FC33DF;
 Reference = D7;
 ValeurCmp = LED;
-IdModule  = MADW__CHIPLED_0603;
+IdModule  = MADW__CHIPLED-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /50FC33E5;
 Reference = D8;
 ValeurCmp = LED;
-IdModule  = MADW__CHIPLED_0603;
+IdModule  = MADW__CHIPLED-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /50FC38AC;
 Reference = D9;
 ValeurCmp = LED;
-IdModule  = MADW__CHIPLED_0603;
+IdModule  = MADW__CHIPLED-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /50FC38B2;
 Reference = D10;
 ValeurCmp = LED;
-IdModule  = MADW__CHIPLED_0603;
+IdModule  = MADW__CHIPLED-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /50FC38B8;
 Reference = D11;
 ValeurCmp = LED;
-IdModule  = MADW__CHIPLED_0603;
+IdModule  = MADW__CHIPLED-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /50FC38BE;
 Reference = D12;
 ValeurCmp = LED;
-IdModule  = MADW__CHIPLED_0603;
+IdModule  = MADW__CHIPLED-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /50FC38D0;
 Reference = D13;
 ValeurCmp = LED;
-IdModule  = MADW__CHIPLED_0603;
+IdModule  = MADW__CHIPLED-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /50FC38D6;
 Reference = D14;
 ValeurCmp = LED;
-IdModule  = MADW__CHIPLED_0603;
+IdModule  = MADW__CHIPLED-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /50FC38C4;
 Reference = D15;
 ValeurCmp = LED;
-IdModule  = MADW__CHIPLED_0603;
+IdModule  = MADW__CHIPLED-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /50FC38CA;
 Reference = D16;
 ValeurCmp = LED;
-IdModule  = MADW__CHIPLED_0603;
+IdModule  = MADW__CHIPLED-0603;
 EndCmp
 
 BeginCmp
