@@ -1,0 +1,66 @@
+Cmp-Mod V01 Created by PcbNew date = Tue 29 Jan 2013 02:40:19 PM CET
+
+BeginCmp
+TimeStamp = /50426442;
+Reference = C1;
+ValeurCmp = 100nF;
+IdModule  = -C0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /50426447;
+Reference = C2;
+ValeurCmp = 4.7µF;
+IdModule  = -C0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /50FC3250;
+Reference = IC1;
+ValeurCmp = MBI5030GF;
+IdModule  = MADW__SOP24-300-1.00;
+EndCmp
+
+BeginCmp
+TimeStamp = /504244A9;
+Reference = P1;
+ValeurCmp = CONN_12;
+IdModule  = MADW__SIL-12;
+EndCmp
+
+BeginCmp
+TimeStamp = /504244A6;
+Reference = P2;
+ValeurCmp = CONN_12;
+IdModule  = MADW__SIL-12;
+EndCmp
+
+BeginCmp
+TimeStamp = /5107D127;
+Reference = P3;
+ValeurCmp = CONN_12;
+IdModule  = MADW__SIL-12;
+EndCmp
+
+BeginCmp
+TimeStamp = /5107D12D;
+Reference = P4;
+ValeurCmp = CONN_12;
+IdModule  = MADW__SIL-12;
+EndCmp
+
+BeginCmp
+TimeStamp = /50FC36AE;
+Reference = R1;
+ValeurCmp = 300R;
+IdModule  = MADW__R0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /50FC2D69;
+Reference = RV1;
+ValeurCmp = 2k;
+IdModule  = MADW__TC33X-POT;
+EndCmp
+
+EndListe
