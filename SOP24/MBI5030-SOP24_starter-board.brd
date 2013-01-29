@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 2 date Tue 29 Jan 2013 01:11:53 PM CET
+PCBNEW-BOARD Version 2 date Tue 29 Jan 2013 02:26:47 PM CET
 
 # Created by Pcbnew(2013-01-27 BZR 3925)-testing
 
@@ -11,7 +11,7 @@ VisibleLayers 12E08001
 Links 81
 NoConn 0
 Di 133.231525 102.134999 179.315477 131.975
-Ndraw 35
+Ndraw 37
 Ntrack 250
 Nzone 0
 BoardThickness 1.6002
@@ -4659,6 +4659,16 @@ Ne 40 "N-000008"
 Po 0 -0.7493
 $EndPAD
 $EndMODULE MADW__R0603
+$TEXTPCB
+Te "CH  0...7"
+Po 166.6494 118.3386 1 1 0.2 0
+De 21 1 0 Normal
+$EndTEXTPCB
+$TEXTPCB
+Te "CH 15...8"
+Po 166.6748 110.4646 1 1 0.2 0
+De 21 1 0 Normal
+$EndTEXTPCB
 $TEXTPCB
 Te "LED"
 nl "SEL"
