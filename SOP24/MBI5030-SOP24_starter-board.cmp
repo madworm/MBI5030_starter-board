@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-01-24 BZR 3921)-testing date = Sun 27 Jan 2013 11:32:15 AM CET
+Cmp-Mod V01 Created by PcbNew date = Mon 04 Feb 2013 02:50:29 PM CET
 
 BeginCmp
 TimeStamp = /50426442;
@@ -137,7 +137,7 @@ BeginCmp
 TimeStamp = /50FC8017;
 Reference = JP1;
 ValeurCmp = int. LEDs;
-IdModule  = SIL-2;
+IdModule  = MADW__SIL-2;
 EndCmp
 
 BeginCmp
