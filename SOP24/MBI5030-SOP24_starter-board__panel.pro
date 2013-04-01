@@ -1,0 +1,35 @@
+update=Tue 02 Apr 2013 12:40:33 AM CEST
+last_client=pcbnew
+[pcbnew]
+version=1
+LastNetListRead=
+UseCmpFile=1
+PadDrill="    1.016000"
+PadDrillOvalY="    1.016000"
+PadSizeH="    1.650000"
+PadSizeV="    1.650000"
+PcbTextSizeV="    1.000000"
+PcbTextSizeH="    1.000000"
+PcbTextThickness="    0.300000"
+ModuleTextSizeV="    1.016000"
+ModuleTextSizeH="    1.016000"
+ModuleTextSizeThickness="    0.203200"
+SolderMaskClearance="    0.000000"
+SolderMaskMinWidth="    0.000000"
+DrawSegmentWidth="    0.100000"
+BoardOutlineThickness="    0.100000"
+ModuleOutlineThickness="    0.150000"
+[pcbnew/libraries]
+LibDir=
+LibName1=sockets
+LibName2=connect
+LibName3=discret
+LibName4=pin_array
+LibName5=divers
+LibName6=libcms
+LibName7=display
+LibName8=led
+LibName9=dip_sockets
+LibName10=pga_sockets
+LibName11=valves
+LibName12=/home/robert/Arduino/KiCAD/LIBS/my_parts

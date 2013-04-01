@@ -1,6 +1,7 @@
 *.000
 *.brd-bak
 *.bak
+*.kicad_pcb-bak
 $save*
 *~
 _autosave*
