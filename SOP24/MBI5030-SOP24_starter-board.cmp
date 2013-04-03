@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by PcbNew date = Sat 09 Feb 2013 10:38:47 PM CET
+Cmp-Mod V01 Created by CvPcb (2013-04-03 BZR 4062)-testing date = Wed 03 Apr 2013 11:01:15 PM CEST
 
 BeginCmp
 TimeStamp = /50426442;
@@ -155,122 +155,38 @@ IdModule  = MADW__SIL-12;
 EndCmp
 
 BeginCmp
-TimeStamp = /50FC3282;
-Reference = R1;
-ValeurCmp = 1k;
-IdModule  = MADW__R0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /50FC3291;
-Reference = R2;
-ValeurCmp = 1k;
-IdModule  = MADW__R0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /50FC32AF;
-Reference = R3;
-ValeurCmp = 1k;
-IdModule  = MADW__R0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /50FC32A0;
-Reference = R4;
-ValeurCmp = 1k;
-IdModule  = MADW__R0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /50FC32BE;
-Reference = R5;
-ValeurCmp = 1k;
-IdModule  = MADW__R0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /50FC32CD;
-Reference = R6;
-ValeurCmp = 1k;
-IdModule  = MADW__R0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /50FC32DC;
-Reference = R7;
-ValeurCmp = 1k;
-IdModule  = MADW__R0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /50FC32EB;
-Reference = R8;
-ValeurCmp = 1k;
-IdModule  = MADW__R0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /50FC387C;
-Reference = R9;
-ValeurCmp = 1k;
-IdModule  = MADW__R0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /50FC3882;
-Reference = R10;
-ValeurCmp = 1k;
-IdModule  = MADW__R0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /50FC388E;
-Reference = R11;
-ValeurCmp = 1k;
-IdModule  = MADW__R0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /50FC3888;
-Reference = R12;
-ValeurCmp = 1k;
-IdModule  = MADW__R0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /50FC3894;
-Reference = R13;
-ValeurCmp = 1k;
-IdModule  = MADW__R0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /50FC389A;
-Reference = R14;
-ValeurCmp = 1k;
-IdModule  = MADW__R0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /50FC38A0;
-Reference = R15;
-ValeurCmp = 1k;
-IdModule  = MADW__R0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /50FC38A6;
-Reference = R16;
-ValeurCmp = 1k;
-IdModule  = MADW__R0603;
-EndCmp
-
-BeginCmp
 TimeStamp = /50FC36AE;
 Reference = R17;
 ValeurCmp = 300R;
 IdModule  = MADW__R0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /515C985A;
+Reference = RP1;
+ValeurCmp = 1k;
+IdModule  = MADW__1206*4_resistor_array;
+EndCmp
+
+BeginCmp
+TimeStamp = /515C9869;
+Reference = RP2;
+ValeurCmp = 1k;
+IdModule  = MADW__1206*4_resistor_array;
+EndCmp
+
+BeginCmp
+TimeStamp = /515C9D96;
+Reference = RP3;
+ValeurCmp = 1k;
+IdModule  = MADW__1206*4_resistor_array;
+EndCmp
+
+BeginCmp
+TimeStamp = /515C9D9C;
+Reference = RP4;
+ValeurCmp = 1k;
+IdModule  = MADW__1206*4_resistor_array;
 EndCmp
 
 BeginCmp
