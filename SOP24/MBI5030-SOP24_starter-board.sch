@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 04 Apr 2013 12:23:57 AM CEST
+EESchema Schematic File Version 2  date Mon 22 Apr 2013 03:28:40 PM CEST
 LIBS:my_parts
 LIBS:power
 LIBS:device
@@ -31,13 +31,13 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:MBI5030-SOP24_starter-board-cache
-EELAYER 27 0
+EELAYER 24 0
 EELAYER END
 $Descr User 8268 5906
 encoding utf-8
 Sheet 1 1
 Title "MBI5030-SOP24_starter-board"
-Date "3 apr 2013"
+Date "22 apr 2013"
 Rev "1.1"
 Comp "2013 - blog.spitzenpfeil.org"
 Comment1 ""
@@ -776,4 +776,6 @@ Text Label 6500 3050 0    60   ~ 0
 L7B
 Text Label 6800 2850 0    60   ~ 0
 L8B
+Text Notes 1350 5150 0    60   ~ 0
+R-EXT = (23.3 * 1.22) / Iout-max
 $EndSCHEMATC
