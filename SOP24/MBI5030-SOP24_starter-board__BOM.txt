@@ -6,7 +6,7 @@ C1	100nF 0805
 C2	4.7µF 0805
 D1-16	LED 0603
 IC1	MBI5030 SOP24-300-1.00
-JP1	0.1in header, female, 2-pin, jumper
+JP1	0.1in header, male, 2-pin, jumper
 P3	0.1in header, male, 12-pin
 P4	0.1in header, male, 12-pin
 R17	300R 0603
