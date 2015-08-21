@@ -1,0 +1,7 @@
+
+* Flux, flux, flux...
+
+* LED orientation:	The cathodes must point towards the header pins, which go into the chip (current sink).
+			One way to achieve this is to have the cathodes point towards the jumper on the left.
+
+
